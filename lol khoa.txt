@@ -1,1 +1,2 @@
 nhat dep trai vcl
+. tao cung yeu tao vl
