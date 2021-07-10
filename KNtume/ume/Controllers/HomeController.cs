@@ -19,7 +19,7 @@ namespace ume.Controllers
 
             return View();
         }
-
+        //Code long
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
