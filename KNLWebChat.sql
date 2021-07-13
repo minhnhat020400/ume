@@ -1,13 +1,13 @@
 CREATE DATABASE Sales  
 ON   
 ( NAME = Sales_dat,  
-    FILENAME = 'D:\DoAn\DoAnWeb\saledat.mdf',  
+    FILENAME = 'D:\webchat\ume\saledat.mdf',  
     SIZE = 10,  
     MAXSIZE = 50,  
     FILEGROWTH = 5 )  
 LOG ON  
 ( NAME = Sales_log,  
-    FILENAME = 'D:\DoAn\DoAnWeb\salelog.ldf',  
+    FILENAME = 'D:\webchat\ume\salelog.ldf',  
     SIZE = 5MB,  
     MAXSIZE = 25MB,  
     FILEGROWTH = 5MB ) ;  
@@ -113,7 +113,7 @@ Create table [loai_like]
 Constraint [pk_loai_like] Primary Key ([id_loai])
 ) 
 go
-use mechat
+use Sales
  select * from dbo.bai_viet
 
 
